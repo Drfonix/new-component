@@ -1,8 +1,6 @@
 ## Create a new React component
 
-Forked from https://www.npmjs.com/package/@metamn/new-component
-
-Git: 
+Forked from https://www.npmjs.com/package/@metamn/new-component 
 
 Added configurable language files + separate style file for MUI support
 
@@ -138,9 +136,9 @@ const Button = props => {
   /**
    * Gets the component styles
    */
-  const { Button } = useStyles();
+  const { button } = useStyles();
 
-  return <div className={Button}>{t("Button")}</div>;
+  return <div className={button}>{t("Button")}</div>;
 };
 
 Button.propTypes = propTypes;
@@ -148,6 +146,7 @@ Button.defaultProps = defaultProps;
 
 export default Button;
 export { propTypes as ButtonPropTypes, defaultProps as ButtonDefaultProps };
+
 ```
 
 ```Javascript
