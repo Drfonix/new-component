@@ -1,0 +1,5 @@
+const LANG_LANG = {
+  COMPONENT_NAME: "COMPONENT_NAME",
+};
+
+export { LANG_LANG };

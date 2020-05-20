@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Bojte Szabolcs"
+  },
+  "bin": {
+    "new-component": "src/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "2.1.0",
+    "commander": "2.11.0",
+    "i18next": "^19.0.3",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "prettier": "^1.19.1",
+    "react-i18next": "^11.3.0"
+  },
+  "deprecated": false,
+  "description": "CLI for creating new React components",
+  "keywords": [
+    "react",
+    "reactjs",
+    "cli",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@drfonix/new-component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drfonix/new-component.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.3.1"
+}
