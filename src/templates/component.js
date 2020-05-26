@@ -37,7 +37,7 @@ const COMPONENT_NAME = (props) => {
   /**
    * Gets the component styles
    */
-  const { component_name } = useStyles();
+  const component_name = useStyles();
 
   return <div className={component_name}>{t("COMPONENT_NAME")}</div>;
 };
